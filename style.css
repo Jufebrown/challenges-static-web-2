@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  color: black;
+  width: 50px;
+  padding: 10px;
+  display: block;
+  transition: width;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav ul li{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background: firebrick;
+}
+
+a:hover {
+  color: blue;
+  background: gray;
+  width: 55px;
+}
